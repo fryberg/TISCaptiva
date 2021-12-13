@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".ui.main.MainFragment">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/back_pic"
+        android:scaleType="centerCrop"
+        android:src="@drawable/back2"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/b2007"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/b2007"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/b2011"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/b2011"
+        android:textColor="#D1C4E9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/b2007" />
+
+    <Button
+        android:id="@+id/donateB"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="172dp"
+        android:background="#9C27B0"
+        android:contentDescription="@string/todo"
+        android:drawableLeft="@android:drawable/btn_star_big_on"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:text="Donate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--ImageView
+           android:id="@+id/imageView"
+           android:layout_width="385dp"
+           android:layout_height="239dp"
+           android:layout_marginStart="96dp"
+           android:layout_marginTop="8dp"
+           android:layout_marginEnd="96dp"
+           android:contentDescription="@string/imageview"
+           android:src="@drawable/capa"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintHorizontal_bias="0.481"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@+id/message" /-->
+
+    <!--TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" /-->
+
+    <!--Button
+        android:id="@+id/b2010"
+        android:layout_width="112dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="112dp"
+        android:text="@string/b2010"
+        app:layout_constraintTop_toBottomOf="@+id/b2007"
+        tools:layout_editor_absoluteX="17dp" /-->

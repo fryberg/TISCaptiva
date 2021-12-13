@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TIS Chevrolet Captiva</string>
+    <string name="imageview">TISCaptiva</string>
+    <string name="b2007">C100</string>
+    <string name="b2010">2010</string>
+    <string name="b2011">C140</string>
+    <string name="main_text">TIS Chevrolet Captiva (Technical Information System)</string>
+    <string name="webview">webvew</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="list1">Ремонт кузова</string>
+    <string name="list2">Электросхемы</string>
+    <string name="list3">Тех. обслуживание</string>
+    <string name="back_pic">BACKPIC</string>
+    <string name="todo">TODO</string>
+</resources>

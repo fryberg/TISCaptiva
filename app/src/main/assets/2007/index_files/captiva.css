@@ -1,0 +1,273 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #666 url("top-images/body-bg.gif") repeat-x 0 0;
+	color: #000;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 12px;
+	padding: 10px 0 0 0;
+}
+
+table {
+	border: none;
+	border-collapse: collapse;
+	border-spacing: 0 0;
+}
+
+#table-main {
+	width: 100%;
+}
+
+td {
+	vertical-align: top;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.smalltext {
+	font-family: verdana, sans-serif;
+	font-size: x-small;
+}
+
+#td-content {
+	color: #666;
+	background-color: #fff;
+}
+
+#td-content a {
+	color: #a90329;
+	background-color: inherit;
+}
+
+#td-sidebar {
+	color: #fff;
+	background-color: #a90329;
+	width: 160px;
+}
+
+#td-sidebar a {
+	color: #fff;
+	background-color: inherit;
+}
+
+#sidebar-main {
+	padding: 10px;
+	width: 160px;
+}
+
+a {
+	color: #a90329;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a img {
+	border: none;
+}
+
+img {
+	border: 1px solid #a90329;
+	padding: 2px;
+}
+
+.clear {
+	clear: both;
+}
+
+.left {
+	float: left;
+	margin-right: 10px;
+}
+
+.right {
+	float: right;
+	margin-left: 10px;
+}
+
+.center {
+	text-align: center;
+}
+
+#content {
+	padding: 10px 10px 10px 30px;
+}
+
+#content img {
+	margin: 5px;
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 100%;
+}
+
+#shad-l {
+	background: url("top-images/shadow-l.gif") no-repeat 0 0;
+	padding-left: 5px;
+}
+
+#shad-r {
+	background: url("top-images/shadow-r.gif") no-repeat 100% 0;
+	padding-right: 5px;
+}
+
+#header {
+	color: inherit;
+	background: #a90329 url("top-images/header-bg.gif") repeat-x 0 0;
+	overflow: hidden;
+	position: relative;
+}
+
+#head-r {
+	background: url("top-images/header-r.gif") no-repeat 100% 0;
+}
+
+#head-l {
+	background: url("top-images/header-l.gif") no-repeat 0 0;
+}
+
+#title-block, #title-block a {
+	color: #fff;
+	background-color: inherit;
+	font-family: "comic sans ms", tahoma, sans-serif;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#blog-title {
+	font-size: 1.1em;
+}
+
+#toolbar {
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    background: #a90329;
+    border-bottom: 1px solid #fff;
+}
+
+#topmenu {
+    margin: 0;
+    padding: 0;
+    font-family: tahoma, sans-serif;
+    font-size: 11px;
+}
+
+#topmenu ul {
+    padding: 0 0 0 5px;
+    margin: 0;
+    list-style-type: none;
+    width: auto;
+    float: left;
+}
+
+#topmenu ul li {
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+#topmenu ul li a {
+    float: left;
+    display: block;
+    margin: 0 0 0 2px;
+    padding: 0 0 0 10px;
+    text-decoration: none;
+    line-height: 30px;
+    color: #fff;
+    width: auto;
+    background: #a90329 url("top-images/topmenu-l.gif") 0 0 no-repeat;
+}
+
+#topmenu ul li a span {
+    display: block;
+    padding: 0 15px 0 7px;
+    background: #a90329 url("top-images/topmenu-r.gif") 100% 0 no-repeat;
+}
+
+#topmenu ul li a:hover {
+    color: #000;
+    background: #fff url("top-images/topmenu-active-l.gif") 0 0 no-repeat;
+}
+
+#topmenu ul li a:hover span {
+    display: block;
+    background: #fff url("top-images/topmenu-active-r.gif") 100% 0 no-repeat;
+}
+
+#topmenu ul li a:hover span {
+    text-decoration: underline;
+    display: block;
+}
+
+#topmenu ul li a.current {
+    color: #000;
+    font-weight: bold;
+    background: #fff url("top-images/topmenu-active-l.gif") 0 0 no-repeat;
+}
+
+#topmenu ul li a.current span {
+    display: block;
+    background: #fff url("top-images/topmenu-active-r.gif") 100% 0 no-repeat;
+}
+
+#topmenu ul li a.current:hover {
+    color: #fff;
+    font-weight: bold;
+    background: #a90329 url("top-images/topmenu-l.gif") 0 0 no-repeat;
+}
+
+#topmenu ul li a.current:hover span {
+    display: block;
+    background: #a90329 url("top-images/topmenu-r.gif") 100% 0 no-repeat;
+}
+
+#footer {
+	background: #0d0d0d url("top-images/footer-bg.gif") repeat-x 0 100%;
+	color: #999;
+	clear: both;
+}
+
+#foot-r {
+	background: url("top-images/footer-r.gif") no-repeat 100% 100%;
+	height: 120px;
+}
+
+#foot-l {
+	background: url("top-images/footer-l.gif") no-repeat 0 100%;
+}
+
+#footerarea {
+	padding: 10px;
+	text-align: center;
+}
+
+#footerarea a:link, #footerarea a:visited {
+	color: #666;
+	background-color: inherit;
+}
+
+#footerarea a:hover {
+	color: #666;
+	background-color: inherit;
+	text-decoration: underline;
+}
+
+#footerarea img {
+	border: none !important;
+}
+
+
+#tree img {
+	border: 0;
+	margin: 2px;
+	padding: 0;
+}
